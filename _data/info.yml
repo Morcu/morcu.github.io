@@ -2,10 +2,11 @@
 name: ExampleEvent 2020
 
 # Event date, in free-text format
-date: February 30-31
+date: 22, 23 y 24 de Octubre
 
 # Event location
-location: Building 01, Example University
+location: ETS Ingenieros de Telecomunicación Campus Moncloa – Ciudad Universitaria
+
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
 description_short: Student-run hackathon at EPFL, Switzerland
