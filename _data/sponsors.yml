@@ -10,8 +10,13 @@ tiers:
   Partners:
     show_title: true
     color: rgba(212,175,55,0.12)
-    size: 30
+    size: 10
     sponsors:
-      Example University: http://example.org
-      Gold Example One: http://example.org
-      
+      poli: https://www.upm.es/
+      uam: https://uam.es/uam/inicio
+      upm: https://www.etsit.upm.es/
+      qiskit: https://qiskit.org/
+      ibm: https://www.ibm.com/es-es
+      multiverse: https://www.multiversecomputing.com/
+      csic: https://www.csic.es/es
+      qsi: https://quantumstrategyinstitute.com/

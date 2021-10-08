@@ -9,7 +9,7 @@ location: ETS Ingenieros de Telecomunicación Campus Moncloa – Ciudad Universi
 
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
-description_short: aaa
+description_short: evento organizado por @QuantumMadrid
 description_long: |-
   El Hackathon Cuántico Madrid es un evento organizado por @QuantumMadrid
   con motivo del Qiskit Fall Fest y el hacktoberfest
