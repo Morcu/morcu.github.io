@@ -1,5 +1,5 @@
 # Event name
-name: ExampleEvent 2020
+name: Hackathon Cuántico Madrid
 
 # Event date, in free-text format
 date: 22, 23 y 24 de Octubre
@@ -9,16 +9,17 @@ location: ETS Ingenieros de Telecomunicación Campus Moncloa – Ciudad Universi
 
 
 # Event description; short is for e.g. Facebook shared links, long appears on the home page.
-description_short: Student-run hackathon at EPFL, Switzerland
+description_short: aaa
 description_long: |-
-  This is an example event for this template!
+  El Hackathon Cuántico Madrid es un evento organizado por @QuantumMadrid
+  con motivo del Qiskit Fall Fest y el hacktoberfest
+  Esperemos que sea una inmersión de fin de semana donde perfiles distintos
+  como investigadores, programadores y diseñadores sean capaces de 
+  adentrarse en el mundo de la cuantica o realizar un prototipo.
 
-  It's there to show off the capabilities of the template.
-
-  No coding needed, just change the data!
 
 # Contact email. Use a bot-defeating format, otherwise you'll get spammed.
-email: info at example dot org
+email: quantumcomputingmadrid@gmail.com
 
 # Social networks. Twitter is optional, but you really should have a Facebook page.
 facebook: ???
@@ -34,5 +35,3 @@ font: Courier, monospace
 
 # Links to past editions
 past_editions:
-  2010: http://2010.example.org
-  2000: http://2000.example.org

@@ -23,10 +23,12 @@ layout: default
   {% endif %}
 
   <p>
-    Siguenos en <a href="https://facebook.com/{{ site.data.info.facebook }}"
+    Siguenos en 
+    <!---<a href="https://facebook.com/{{ site.data.info.facebook }}"
                     rel="noreferrer">Facebook</a>
     {% if site.data.info.twitter %}
-      y <a href="https://twitter.com/{{ site.data.info.twitter }}"
+      y--->
+      <a href="https://twitter.com/{{ site.data.info.twitter }}"
              rel="noreferrer">Twitter</a>
     {% endif %}
     para actualizaciones!
@@ -34,11 +36,19 @@ layout: default
 </section>
 <section class="tone-dark">
   <div>
-    {{ site.data.info.description_long | markdownify }}
-
+    <!---{{ site.data.info.description_long | markdownify }}--->
+    <p>
+    El Hackathon Cuántico Madrid es un evento organizado por @QuantumMadrid<br>
+    con motivo del Qiskit Fall Fest y el Hacktoberfest<br>
+    Esperemos que sea una inmersión de fin de semana donde perfiles distintos como:<br>
+    investigadores, programadores y diseñadores sean capaces de adentrarse en el mundo de la cuántica, <br>
+     realizar un prototipo o contribuir al software libre.
+    </p>
     {% if site.data.workshops %}
       <p>
-        We also organize <a href="/workshops">{{ site.data.workshops.name }}</a>.
+        <!---También organizamos más eventos <a href="/workshops">{{ site.data.workshops.name }}</a>.--->
+        También organizamos más eventos <a href="https://www.meetup.com/es-ES/quantummadrid/">Meetups</a>.
+
       </p>
     {% endif %}
 
@@ -52,13 +62,13 @@ layout: default
     {% endif %}
 
     <p>
-      Please keep in mind our <a href="/pdf/rules.pdf">rules</a>.
+      <a href="/pdf/rules.pdf">Código de conducta</a>.
     </p>
   </div>
 </section>
 {% if site.data.schedule %}
   <section id="schedule">
-    <h1>Schedule</h1>
+    <h1>Agenda</h1>
     <div class="items-container">
       {% for part in site.data.schedule %}
         <div class="item-large">
@@ -93,15 +103,14 @@ layout: default
         </div>
       {% endfor %}
       <div class="item-large">
-        <h2>I have another question...</h2>
-        <p>Contact us on <a href="https://facebook.com/{{ site.data.info.facebook }}"
-                            rel="noreferrer">Facebook</a>,
+        <h2>Tengo más preguntas...</h2>
+        <p>Contactanos en
           {% if site.data.info.twitter %}
-            on <a href="https://twitter.com/{{ site.data.info.twitter }}"
+            <a href="https://twitter.com/{{ site.data.info.twitter }}"
                   rel="noreferrer">Twitter</a>,
           {% endif %}
-          <br>
-          or by email ({{ site.data.info.email }})!</p>
+          
+          o al email ({{ site.data.info.email }})!</p>
     </div>
   {% endif %}
 </section>
@@ -173,12 +182,16 @@ layout: default
   </div>
   {% if site.data.organizers.group %}
     <p>
-      {{ site.data.info.name }} is organized by {{ site.data.organizers.group.name }}, whose legal documents can be viewed
+      {{ site.data.info.name }} está organizado por {{ site.data.organizers.group.name }}
+      <!---
+      , whose legal documents can be viewed
       {% if site.data.organizers.group.link %}
         <a href="{{ site.data.organizers.group.link }}">here</a>.
+        
       {% else %}
         <a href="/legal">here</a>.
       {% endif %}
+      --->
     </p>
   {% endif %}
   <p>
